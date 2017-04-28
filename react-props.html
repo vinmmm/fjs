@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FettsJS</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="header">
+<h2>FettsJS</h2>
+<img src="devil-lock-yellow-1.png">
+</div>
+
+<h3>React Props</h3>
+<p style="padding: 0px 0px 25px 10px;">React provides properties (props) for passing data from parents to children. See differences between state and props <a href="#">here</a>. In the example below we will use JSX and use props in the tag attributes much like we would work with tag attributes in HTML. </p>
+<p class="bat-routing">So, do this first, import {Component} from react and create a parent component like the code below.</p>
+<pre>
+<code class="prettyprint lang-js">import React, { Component } from 'react';
+
+
+
+// Parent Component
+class Flintstones extends Component {
+render() { 
+
+  return (
+<div>
+  
+ <ul>
+    <ListItem when="1960s" name="Great Gazoo" /> 
+    <ListItem when="1960s" name="Spacely, Jetsons" /> 
+    <ListItem when="1980s" name="Scacely, Mudd Club" />
+  </ul>
+
+</div>
+
+ );
+
+} 
+
+}
+// Child Component
+class ListItem extends Component {
+render() { 
+  return (
+<li>
+{this.props.when} is {this.props.name}
+</li> 
+
+   );
+
+} 
+
+}
+
+export default Flintstones;
+
+
+
+</code>
+</pre>
+
+<p class="bat-routing">Now do this second..</p>
+
+<pre>
+<code class="prettyprint lang-js">code...
+</code>
+</pre>
+
+<p class="bat-routing">Third thing...</p>
+<pre>
+<code class="prettyprint lang-js">
+</code>
+</pre>
+
+<p class="bat-routing">Fourth thing...</p>
+<pre>
+<code class="prettyprint lang-js">code...
+
+
+</code>
+</pre>
+
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+</body>
+</html>
