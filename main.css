@@ -123,10 +123,10 @@ h3 {
 
 }
 
-h4 {
+h6 {
   padding: 25px 0px 0px 10px;
-  font-size: 30px;
-  color: deeppink;
+  font-size: 12px;
+  
 
 }
 
@@ -158,10 +158,21 @@ h5 {
   padding: 10px;
 }
 
+.bbc-routing {
+padding: 25px 0px 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .soda {
 	display: block;
 	background: black;
 	color: hotpink;
 	padding-left: 10px;
 }
+
+.index tr {
+  float: left;
+}
+
 
