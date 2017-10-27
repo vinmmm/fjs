@@ -50,20 +50,22 @@
 <h4>React with Redux</h4>
 
 <div id="pagewrap">
-
-  <header>
-    <h1>Container components as controller and presentational components as view</h1>
+  <h1>Actions, Constants and Reducers</h1>
+  <div>
+    <p>Container components as controller and presentational components as view</p>
     <p>...smart components and dumb is another way of saying this as well as components with state and components with just props is kind of another it seems</p>
-  </header>
+  </div>
 
-  <header>
-    <h1>For state in the redux patten we start with a single immutable object as state</h1>
-  </header>
-  <header>
-    <h1>Actions, Constants and Reducers</h1>
+  <div>
+    <p>For state in the redux patten we start with a single immutable object as state</p>
+  </div>
+  <div>
+    <h4>Actions...</h4>
+    <p>Actions are in CAPS not camelCase and underscored like: EXAMPLE_ACTION</p>
+    <p>Actions + current state are passed as arguments to reducers to effect state change and because actions instruct the creation of the new state and ste usually involes data, actions' have data that is called payload or payload data.</p>
     <p>Reducers take an action and the current state as arguments and returna new state</p>
-    <p></p>
-  </header>
+    <p>Storing Actions in Constants is not a Redux rule but a best practice for avoiding errors for one thing.</p>
+  </div>
     
   <section id="content">
     <h2>Async XHR</h2>
